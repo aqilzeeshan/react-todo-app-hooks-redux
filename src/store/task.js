@@ -2,13 +2,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 //Define and initialise initial state 
-/*************** Note for Reviwer *******************
-Initial state provided in task description is confusing so 
-quesiton has been posted on https://discord.com/channels/1034069063888015380/1036343149313937588
-At the time of developing this solution it is not clear that 
-why such a complicated way to maintain state has been asked when
-it can be done in a clean, clear and simple way.
-****************************************************/
 const initialState = [
     {
         id: 1,
